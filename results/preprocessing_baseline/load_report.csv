@@ -1,0 +1,26 @@
+subject,source_file,raw_rows,exact_duplicates_removed,invalid_timestamps,used_cgm_alias,numeric_parse_errors
+1,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 1\Subject 1.csv,11042,144,0,False,{}
+2,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 2\Subject 2.csv,11194,0,0,False,{}
+3,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 3\Subject 3.csv,11605,861,0,False,{}
+4,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 4\Subject 4.csv,12822,70,0,False,{}
+5,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 5\Subject 5.csv,13210,1,0,False,{}
+6,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 6\Subject 6.csv,12901,166,0,False,{}
+7,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 7\Subject 7.csv,13392,0,0,False,{}
+8,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 8\Subject 8.csv,8139,19,0,False,{}
+9,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 9\Subject 9.csv,10717,21,0,False,{}
+10,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 10\Subject 10.csv,12183,288,0,False,{}
+11,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 11\Subject 11.csv,12954,84,0,False,{}
+12,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 12\Subject 12.csv,12681,31,0,False,{}
+13,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 13\Subject 13.csv,12895,91,0,False,{}
+14,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 14\Subject 14.csv,13003,195,0,True,{}
+15,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 15\Subject 15.csv,15825,2041,0,False,{}
+16,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 16\Subject 16.csv,12385,128,0,False,{}
+17,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 17\Subject 17.csv,12972,305,0,False,{}
+18,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 18\Subject 18.csv,10577,61,0,False,{}
+19,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 19\Subject 19.csv,13222,120,0,False,{}
+20,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 20\Subject 20.csv,13390,36,0,False,{}
+21,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 21\Subject 21.csv,13404,149,0,False,{}
+22,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 22\Subject 22.csv,11363,0,0,False,{}
+23,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 23\Subject 23.csv,13766,148,0,False,{}
+24,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 24\Subject 24.csv,10150,136,0,False,{}
+25,C:\Users\lucas\OneDrive\Área de Trabalho\Presente\fuckuldade\Projeto-Transformador-2\AZT1D 2025\CGM Records\Subject 25\Subject 25.csv,10920,94,0,False,{}

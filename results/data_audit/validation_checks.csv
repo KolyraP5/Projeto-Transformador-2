@@ -1,0 +1,7 @@
+check,passed,detail,status
+25 participantes esperados encontrados,True,"encontrados=25, ausentes=[]",PASSOU
+esquema padronizado possui todas as colunas esperadas,True,participantes com colunas ausentes: [],PASSOU
+timestamps válidos em todas as linhas,True,linhas inválidas: 0,PASSOU
+ao menos uma leitura CGM em cada participante,True,participantes sem CGM: [],PASSOU
+duplicatas temporais foram identificadas para tratamento,True,total de timestamps duplicados: 5789,PASSOU
+lacunas acima de 15 min foram identificadas para tratamento,True,total de lacunas: 302,PASSOU

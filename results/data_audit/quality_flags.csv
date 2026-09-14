@@ -1,0 +1,8 @@
+item,status,valor,ação necessária
+Bins CGM com conflito,REVISAR,778,Excluir esses bins e suas janelas; não agregar leituras divergentes.
+Timestamps duplicados,REVISAR,5789,Definir como registros idênticos serão consolidados no pré-processamento.
+Lacunas acima de 15 min,REVISAR,302,Manter a quebra de janela; não interpolar CGM na v0.
+Valores CGM nos limites 40/400,REVISAR,254,"Sinalizar possível censura/saturação, sem excluir silenciosamente."
+Valores de basal acima de 10,REVISAR,6458,Preservar Basal_raw; não corrigir escala sem documentação.
+Participantes sem carboidrato positivo,REVISAR,[23],Não interpretar zero como ausência de refeição sem validar o campo.
+Participantes sem janela CGM limpa,PASSOU,[],Excluir ou revisar participantes sem janelas elegíveis.

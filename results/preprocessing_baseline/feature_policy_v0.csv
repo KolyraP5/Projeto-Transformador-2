@@ -1,0 +1,6 @@
+campo,decisão,motivo
+CGM,usar,alvo e histórico da baseline; conflito no bin exclui janela
+TotalBolusInsulinDelivered,candidato,somar por bin após deduplicação exata
+CarbSize,candidato,somar por bin; Subject 23 não entra no futuro multivariado
+Basal,excluir na v0,escala aparentemente mista entre participantes
+DeviceMode e BolusType,excluir na v0,valores heterogêneos e sem regra definida

@@ -1,0 +1,5 @@
+check,passed,detail
+"shape de X é (n, histórico, features)",True,"(286690, 12, 1)"
+X e y não possuem valores ausentes ou infinitos,True,janelas=286690
+cada entrada cobre o histórico configurado,True,duração esperada=0 days 00:55:00
+alvo ocorre exatamente no horizonte configurado,True,horizonte esperado=0 days 00:30:00

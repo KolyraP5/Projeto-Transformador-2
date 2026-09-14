@@ -1,0 +1,10 @@
+item,decisão v0
+Frequência-alvo,5min
+Histórico de entrada,60 min (12 passos)
+Horizonte de previsão,30 min (6 passos)
+Alvo,CGM no horizonte futuro
+Entradas previstas,"CGM, insulina e carboidratos — após regra de agregação documentada"
+Split populacional,por participante; paciente de teste nunca entra no treino populacional
+Split de personalização,"cronológico: início para fine-tuning, período posterior intocado para teste"
+Métricas iniciais,MAE e RMSE
+Política provisória para gaps,não criar janela que atravesse ausência em grade de 5min
