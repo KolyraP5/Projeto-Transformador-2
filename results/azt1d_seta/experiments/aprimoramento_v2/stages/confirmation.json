@@ -1,0 +1,539 @@
+{
+  "status": "interrupted_by_user",
+  "started_utc": "2026-11-08T02:36:42.866636+00:00",
+  "arguments": {
+    "experiment_name": "aprimoramento_v2",
+    "stage": "confirmation",
+    "variants": [
+      "baseline15",
+      "combined"
+    ],
+    "blocks": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "workers": 2,
+    "threads": 2
+  },
+  "tasks": [
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B1",
+      "seed": 42,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 42,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B1",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B1",
+      "seed": 42,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 42,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B1",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B1",
+      "seed": 43,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 43,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B1",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B1",
+      "seed": 43,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 43,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B1",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B1",
+      "seed": 44,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 44,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B1",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B1",
+      "seed": 44,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 44,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B1",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B2",
+      "seed": 42,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 42,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B2",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B2",
+      "seed": 42,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 42,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B2",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B2",
+      "seed": 43,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 43,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B2",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B2",
+      "seed": 43,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 43,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B2",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B2",
+      "seed": 44,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 44,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B2",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B2",
+      "seed": 44,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 44,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B2",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B3",
+      "seed": 42,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 42,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B3",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B3",
+      "seed": 42,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 42,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B3",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B3",
+      "seed": 43,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 43,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B3",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B3",
+      "seed": 43,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 43,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B3",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B3",
+      "seed": 44,
+      "variants": [
+        "baseline15"
+      ],
+      "configs": [
+        {
+          "feature_mode": "absolute",
+          "max_epochs": 15,
+          "patience": 3,
+          "rapid_weight": 1.0,
+          "seed": 44,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "baseline15",
+          "block": "B3",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    },
+    {
+      "experiment": "C:\\Users\\gusta\\OneDrive\\Documentos\\GitHub\\Projeto-Transformador-2\\results\\azt1d_seta\\experiments\\aprimoramento_v2",
+      "block": "B3",
+      "seed": 44,
+      "variants": [
+        "combined"
+      ],
+      "configs": [
+        {
+          "feature_mode": "combined",
+          "max_epochs": 30,
+          "patience": 5,
+          "rapid_weight": 1.0,
+          "seed": 44,
+          "threads": 2,
+          "hidden": 32,
+          "batch_size": 64,
+          "lr": 0.001,
+          "variant": "combined",
+          "block": "B3",
+          "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+        }
+      ]
+    }
+  ],
+  "completed_tasks": [
+    {
+      "task": "combined_B1_s42",
+      "seconds": 137.60024990001693,
+      "variants": [
+        "combined"
+      ]
+    },
+    {
+      "task": "baseline15_B1_s42",
+      "seconds": 186.95085319998907,
+      "variants": [
+        "baseline15"
+      ]
+    },
+    {
+      "task": "baseline15_B1_s43",
+      "seconds": 158.6095970000024,
+      "variants": [
+        "baseline15"
+      ]
+    },
+    {
+      "task": "combined_B1_s43",
+      "seconds": 208.81129680003505,
+      "variants": [
+        "combined"
+      ]
+    },
+    {
+      "task": "baseline15_B1_s44",
+      "seconds": 184.26775229995837,
+      "variants": [
+        "baseline15"
+      ]
+    },
+    {
+      "task": "combined_B1_s44",
+      "seconds": 90.1977135000052,
+      "variants": [
+        "combined"
+      ]
+    },
+    {
+      "task": "baseline15_B2_s42",
+      "seconds": 211.94519830000354,
+      "variants": [
+        "baseline15"
+      ]
+    },
+    {
+      "task": "combined_B2_s42",
+      "seconds": 212.49844630004372,
+      "variants": [
+        "combined"
+      ]
+    }
+  ],
+  "protocol_sha256": "3af4f59870a7cecb68451c399d8fbe7319e5149ff905a4a0d466a24951ea9282",
+  "engine_sha256": "c9f1021cf4a00fb152cd6a4b50d28a098cb34552bc76d5d4e5bae8ac0d9ed161",
+  "script_sha256": "31bcb8f0a533900bc2f46dfa9e6000b5408a7e1f8b3d67f417c8a1381033a842",
+  "finished_utc": "2026-11-08T02:49:35.531595+00:00",
+  "reason": "Prazo de entrega; nao executar mais blocos",
+  "completed_model_artifacts": [
+    "baseline15_B1_s42",
+    "baseline15_B1_s43",
+    "baseline15_B1_s44",
+    "baseline15_B2_s42",
+    "baseline15_B3_s42",
+    "combined_B1_s42",
+    "combined_B1_s43",
+    "combined_B1_s44",
+    "combined_B2_s42",
+    "combined_B3_s42",
+    "combined_weighted_B3_s42",
+    "delta_B3_s42",
+    "ep30_B3_s42",
+    "pat5_B3_s42",
+    "relative_B3_s42",
+    "weighted_B3_s42"
+  ]
+}

@@ -1,0 +1,15 @@
+absolute seed=42 epoch=1/15 train=0.811294 stop=0.788041
+absolute seed=42 epoch=2/15 train=0.737232 stop=0.772969
+absolute seed=42 epoch=3/15 train=0.729581 stop=0.763752
+absolute seed=42 epoch=4/15 train=0.725722 stop=0.759706
+absolute seed=42 epoch=5/15 train=0.721514 stop=0.755574
+absolute seed=42 epoch=6/15 train=0.717383 stop=0.755415
+absolute seed=42 epoch=7/15 train=0.714270 stop=0.746845
+absolute seed=42 epoch=8/15 train=0.711872 stop=0.742820
+absolute seed=42 epoch=9/15 train=0.710085 stop=0.744275
+absolute seed=42 epoch=10/15 train=0.708124 stop=0.738052
+absolute seed=42 epoch=11/15 train=0.705717 stop=0.738069
+absolute seed=42 epoch=12/15 train=0.703500 stop=0.734791
+absolute seed=42 epoch=13/15 train=0.701923 stop=0.739845
+absolute seed=42 epoch=14/15 train=0.699721 stop=0.731125
+absolute seed=42 epoch=15/15 train=0.697572 stop=0.736849

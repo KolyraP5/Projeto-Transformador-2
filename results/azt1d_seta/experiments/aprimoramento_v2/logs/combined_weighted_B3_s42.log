@@ -1,0 +1,15 @@
+combined seed=42 epoch=1/30 train=0.866793 stop=0.725883
+combined seed=42 epoch=2/30 train=0.828705 stop=0.714849
+combined seed=42 epoch=3/30 train=0.819060 stop=0.709697
+combined seed=42 epoch=4/30 train=0.814697 stop=0.707122
+combined seed=42 epoch=5/30 train=0.810916 stop=0.718102
+combined seed=42 epoch=6/30 train=0.808697 stop=0.709886
+combined seed=42 epoch=7/30 train=0.806075 stop=0.705885
+combined seed=42 epoch=8/30 train=0.803702 stop=0.708178
+combined seed=42 epoch=9/30 train=0.801648 stop=0.710363
+combined seed=42 epoch=10/30 train=0.799437 stop=0.702885
+combined seed=42 epoch=11/30 train=0.797017 stop=0.708206
+combined seed=42 epoch=12/30 train=0.794605 stop=0.706958
+combined seed=42 epoch=13/30 train=0.792440 stop=0.705962
+combined seed=42 epoch=14/30 train=0.789774 stop=0.709760
+combined seed=42 epoch=15/30 train=0.787501 stop=0.716429

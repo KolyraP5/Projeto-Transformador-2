@@ -1,0 +1,42 @@
+{
+  "parameters": {
+    "feature_mode": "combined",
+    "max_epochs": 30,
+    "patience": 5,
+    "rapid_weight": 1.0,
+    "seed": 42,
+    "threads": 2,
+    "hidden": 32,
+    "batch_size": 64,
+    "lr": 0.001,
+    "device": "auto",
+    "evaluation_split": "dev",
+    "variant": "combined",
+    "block": "B2",
+    "preparation_fingerprint": "5f8519758ab1204eb913c7d414412bf4660b8860be4ac7c52df1f46c7df6b092"
+  },
+  "scales": {
+    "x_mean": [
+      147.99892630173827,
+      -0.005159592514699624,
+      0.020480137343071903
+    ],
+    "x_std": [
+      47.20098443477785,
+      5.660692472492039,
+      23.6753787969225
+    ],
+    "y_mean": -0.0009178718151342243,
+    "y_std": 0.952001499574384
+  },
+  "data_sha256": {
+    "train": "e84e116f7601c214e4af6634181db7dba45c29cf547e941ba207047900753f15",
+    "stop": "b31893ef1ff79b37502454f3b15bcaaa285eae3e654d3134837c58a13d1abe7f",
+    "evaluate": "a3d8acef34a21bcaac9ccbf0e83aa9393cd3f3455973af41410770df7d73a2ee"
+  },
+  "engine_sha256": "c9f1021cf4a00fb152cd6a4b50d28a098cb34552bc76d5d4e5bae8ac0d9ed161",
+  "version": "2.0.0",
+  "train_n": 138509,
+  "stop_n": 27241,
+  "evaluation_n": 27691
+}

@@ -1,0 +1,9 @@
+combined seed=44 epoch=1/30 train=0.719156 stop=0.662134
+combined seed=44 epoch=2/30 train=0.686547 stop=0.650897
+combined seed=44 epoch=3/30 train=0.676903 stop=0.653289
+combined seed=44 epoch=4/30 train=0.671855 stop=0.644975
+combined seed=44 epoch=5/30 train=0.668351 stop=0.645928
+combined seed=44 epoch=6/30 train=0.665824 stop=0.645898
+combined seed=44 epoch=7/30 train=0.662812 stop=0.646351
+combined seed=44 epoch=8/30 train=0.660565 stop=0.647907
+combined seed=44 epoch=9/30 train=0.658661 stop=0.649063

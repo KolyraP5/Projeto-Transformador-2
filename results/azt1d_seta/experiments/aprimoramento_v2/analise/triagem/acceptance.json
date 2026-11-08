@@ -1,0 +1,173 @@
+{
+  "stage": "screening",
+  "selection_is_final": false,
+  "selected_variant": "combined",
+  "provisional_selected_variant": "combined",
+  "baseline_variant": "baseline15",
+  "decisions": [
+    {
+      "variant": "ep30",
+      "gain_vs_refit_v1": -0.0007749628037734269,
+      "fraction_participants_improved": 0.5416666666666666,
+      "folds_improved": 0,
+      "seeds_improved": 0,
+      "criteria": {
+        "gain_at_least_2_percent": false,
+        "better_than_best_simple_baseline": true,
+        "majority_participants": true,
+        "rapid_mae_not_worse": false,
+        "rapid_direction_not_worse": true,
+        "rapid_opposites_not_worse": true,
+        "low_mae_not_worse": false,
+        "low_false_movement_improves": false,
+        "extreme_mae_not_worse": false,
+        "extreme_direction_not_worse": true,
+        "same_origin_coverage": true
+      },
+      "accepted": false,
+      "provisionally_accepted": false,
+      "extreme_matches_last_variation": false
+    },
+    {
+      "variant": "pat5",
+      "gain_vs_refit_v1": -0.0007749628037734269,
+      "fraction_participants_improved": 0.5416666666666666,
+      "folds_improved": 0,
+      "seeds_improved": 0,
+      "criteria": {
+        "gain_at_least_2_percent": false,
+        "better_than_best_simple_baseline": true,
+        "majority_participants": true,
+        "rapid_mae_not_worse": false,
+        "rapid_direction_not_worse": true,
+        "rapid_opposites_not_worse": true,
+        "low_mae_not_worse": false,
+        "low_false_movement_improves": false,
+        "extreme_mae_not_worse": false,
+        "extreme_direction_not_worse": true,
+        "same_origin_coverage": true
+      },
+      "accepted": false,
+      "provisionally_accepted": false,
+      "extreme_matches_last_variation": false
+    },
+    {
+      "variant": "delta",
+      "gain_vs_refit_v1": 0.025942422518711372,
+      "fraction_participants_improved": 0.9583333333333334,
+      "folds_improved": 1,
+      "seeds_improved": 1,
+      "criteria": {
+        "gain_at_least_2_percent": true,
+        "better_than_best_simple_baseline": true,
+        "majority_participants": true,
+        "rapid_mae_not_worse": true,
+        "rapid_direction_not_worse": true,
+        "rapid_opposites_not_worse": true,
+        "low_mae_not_worse": true,
+        "low_false_movement_improves": true,
+        "extreme_mae_not_worse": true,
+        "extreme_direction_not_worse": true,
+        "same_origin_coverage": true
+      },
+      "accepted": false,
+      "provisionally_accepted": true,
+      "extreme_matches_last_variation": false
+    },
+    {
+      "variant": "relative",
+      "gain_vs_refit_v1": 0.02405390951068287,
+      "fraction_participants_improved": 0.9583333333333334,
+      "folds_improved": 1,
+      "seeds_improved": 1,
+      "criteria": {
+        "gain_at_least_2_percent": true,
+        "better_than_best_simple_baseline": true,
+        "majority_participants": true,
+        "rapid_mae_not_worse": true,
+        "rapid_direction_not_worse": true,
+        "rapid_opposites_not_worse": true,
+        "low_mae_not_worse": true,
+        "low_false_movement_improves": false,
+        "extreme_mae_not_worse": false,
+        "extreme_direction_not_worse": true,
+        "same_origin_coverage": true
+      },
+      "accepted": false,
+      "provisionally_accepted": false,
+      "extreme_matches_last_variation": false
+    },
+    {
+      "variant": "weighted",
+      "gain_vs_refit_v1": 0.0009056962236034805,
+      "fraction_participants_improved": 0.5,
+      "folds_improved": 1,
+      "seeds_improved": 1,
+      "criteria": {
+        "gain_at_least_2_percent": false,
+        "better_than_best_simple_baseline": true,
+        "majority_participants": false,
+        "rapid_mae_not_worse": true,
+        "rapid_direction_not_worse": false,
+        "rapid_opposites_not_worse": false,
+        "low_mae_not_worse": false,
+        "low_false_movement_improves": false,
+        "extreme_mae_not_worse": true,
+        "extreme_direction_not_worse": false,
+        "same_origin_coverage": true
+      },
+      "accepted": false,
+      "provisionally_accepted": false,
+      "extreme_matches_last_variation": false
+    },
+    {
+      "variant": "combined",
+      "gain_vs_refit_v1": 0.026807615752470593,
+      "fraction_participants_improved": 1.0,
+      "folds_improved": 1,
+      "seeds_improved": 1,
+      "criteria": {
+        "gain_at_least_2_percent": true,
+        "better_than_best_simple_baseline": true,
+        "majority_participants": true,
+        "rapid_mae_not_worse": true,
+        "rapid_direction_not_worse": true,
+        "rapid_opposites_not_worse": true,
+        "low_mae_not_worse": true,
+        "low_false_movement_improves": true,
+        "extreme_mae_not_worse": true,
+        "extreme_direction_not_worse": true,
+        "same_origin_coverage": true
+      },
+      "accepted": false,
+      "provisionally_accepted": true,
+      "extreme_matches_last_variation": false
+    },
+    {
+      "variant": "combined_weighted",
+      "gain_vs_refit_v1": 0.020316628322131103,
+      "fraction_participants_improved": 0.8333333333333334,
+      "folds_improved": 1,
+      "seeds_improved": 1,
+      "criteria": {
+        "gain_at_least_2_percent": true,
+        "better_than_best_simple_baseline": true,
+        "majority_participants": true,
+        "rapid_mae_not_worse": true,
+        "rapid_direction_not_worse": true,
+        "rapid_opposites_not_worse": true,
+        "low_mae_not_worse": false,
+        "low_false_movement_improves": false,
+        "extreme_mae_not_worse": true,
+        "extreme_direction_not_worse": true,
+        "same_origin_coverage": true
+      },
+      "accepted": false,
+      "provisionally_accepted": false,
+      "extreme_matches_last_variation": true
+    }
+  ],
+  "rule": "Critérios fixados no plano; todas as condições devem passar. Sem candidata, mantém v1.",
+  "screening_note": "Em triagem, consenso entre três blocos e três sementes ainda não avaliado; aprovação apenas provisória.",
+  "selection_data": "Somente blocos de comparação do desenvolvimento, nos primeiros 80%."
+}

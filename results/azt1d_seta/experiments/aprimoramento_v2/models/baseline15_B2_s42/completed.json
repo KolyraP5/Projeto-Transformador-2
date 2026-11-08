@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "version": "2.0.0",
+  "seed": 42,
+  "epochs_ran": 15,
+  "best_epoch": 14,
+  "best_stop_mse_scaled": 0.7311249580297879,
+  "train_seconds": 210.7580323999864,
+  "shared_trajectory_seconds": 210.75992740003858,
+  "physical_epochs": 15,
+  "shared_trajectory_variants": 1,
+  "checkpoint_selection": "unweighted stop MSE; never evaluation metrics",
+  "weights_sha256": "eee5d3c97b1b3dd23b063091903de03d02709a2fb41d32c4966b284b9d387e1b",
+  "data_sha256": {
+    "train": "e84e116f7601c214e4af6634181db7dba45c29cf547e941ba207047900753f15",
+    "stop": "b31893ef1ff79b37502454f3b15bcaaa285eae3e654d3134837c58a13d1abe7f",
+    "evaluate": "a3d8acef34a21bcaac9ccbf0e83aa9393cd3f3455973af41410770df7d73a2ee"
+  },
+  "engine_sha256": "c9f1021cf4a00fb152cd6a4b50d28a098cb34552bc76d5d4e5bae8ac0d9ed161"
+}

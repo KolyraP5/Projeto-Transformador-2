@@ -1,8 +1,12 @@
 # Aprimoramento da seta de tendência de +15 minutos
 
-Este é o plano de desenvolvimento após `full_v1`, elaborado com assistência de
-IA e sujeito à revisão da equipe. **As melhorias abaixo ainda não foram
-implementadas nem testadas.** O trabalho seguirá com a previsão da taxa média
+Este documento preserva o plano de desenvolvimento após `full_v1`, elaborado
+com assistência de IA. **As propostas passaram à execução na bateria v2**, cujo
+[relatório](analises/ANALISE_APRIMORAMENTO_V2.md) informa o que foi efetivamente
+testado e o resultado, e cujo [guia](EXECUCAO_APRIMORAMENTO.md) descreve a execução
+por etapas. O orçamento abaixo registra a proposta inicial; a execução utiliza
+triagem das oito configurações e confirmação da finalista, com protocolo próprio
+congelado antes dos treinos. O trabalho segue com a previsão da taxa média
 futura do CGM e sua seta contínua de +15 minutos. As linhas anteriores ficam
 preservadas no histórico; não fazem parte deste plano.
 

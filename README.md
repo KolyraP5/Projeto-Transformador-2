@@ -16,9 +16,11 @@ que seja possível acompanhar a evolução da pesquisa.
 |---|---|
 | O inventário objetivo dos artefatos para entrega | [readme.txt](readme.txt) |
 | A evolução, decisões e evidências disponíveis | [Histórico da pesquisa](docs/HISTORICO.md) |
+| As ideias testadas antes da seta e o que foi possível recuperar | [Análise das tentativas anteriores](docs/analises/ANALISE_TENTATIVAS_ANTERIORES.md) |
 | O algoritmo atual, dados e critérios de avaliação | [Protocolo atual](docs/PROTOCOLO_ATUAL.md) |
 | O fluxo executável da seta | [Notebook atual](notebooks/atual/AZT1D_Setas_e_Tendencia.ipynb) |
 | A rodada completa e sua interpretação | [Análise de full_v1](docs/analises/ANALISE_FULL_V1.md) |
+| A bateria de melhorias e sua validação | [Aprimoramento v2](docs/analises/ANALISE_APRIMORAMENTO_V2.md) |
 | Os aprimoramentos seguintes | [Plano de evolução do algoritmo](docs/PLANO_APRIMORAMENTO.md) |
 | Como reproduzir localmente ou no Colab | [Execução e resultados](docs/EXECUCAO.md) |
 
@@ -65,6 +67,11 @@ resultados que não estejam documentados.
 `quick_v1` é a verificação pequena do fluxo. `full_v1` executa a configuração
 completa, com divisão cronológica por pessoa, duas LSTMs (+5 e +15 minutos) e três
 baselines por horizonte. As saídas e a análise ficam nos links acima.
+
+A bateria `aprimoramento_v2` testa oito configurações de +15 minutos e verifica
+a melhor candidata em blocos temporais e sementes adicionais. O
+[guia específico](docs/EXECUCAO_APRIMORAMENTO.md) descreve os comandos, as fontes
+e os critérios; o relatório distingue triagem, confirmação e avaliação final.
 
 A proposta original de previsão a +30 minutos com transfer learning está
 preservada como histórico. Seu protocolo difere do atual; seus números não

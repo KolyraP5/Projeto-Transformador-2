@@ -1,0 +1,1223 @@
+{
+  "experiment_name": "aprimoramento_v2",
+  "status": "passed",
+  "arguments": {
+    "experiment_name": "aprimoramento_v2",
+    "blocks": [
+      "B3"
+    ],
+    "seeds": [
+      42
+    ],
+    "variants": [
+      "delta"
+    ],
+    "report_name": "smoke_delta"
+  },
+  "models": [
+    "delta_B3_s42"
+  ],
+  "started_utc": "2026-11-08T02:28:47.908750+00:00",
+  "validator_sha256": "b6908dec6d28398184776345f1b9c6a763d5f7b554672defd8158b55abd6340f",
+  "scope": "development blocks only; no final_v2 or current test predictions accessed",
+  "finished_utc": "2026-11-08T02:28:49.699415+00:00",
+  "checks": [
+    {
+      "scope": "preparation",
+      "check": "Fingerprint da preparação íntegro",
+      "passed": true
+    },
+    {
+      "scope": "preparation",
+      "check": "Protocolo da preparação arquivado sem alteração",
+      "passed": true
+    },
+    {
+      "scope": "preparation",
+      "check": "Natureza exploratória registrada",
+      "passed": true
+    },
+    {
+      "scope": "preparation",
+      "check": "Core v1 arquivado íntegro",
+      "passed": true
+    },
+    {
+      "scope": "preparation",
+      "check": "Fonte da preparação confere com manifesto",
+      "passed": true
+    },
+    {
+      "scope": "preparation",
+      "check": "Bytes dos CSVs originais conferidos, sem extrair alvos do teste",
+      "passed": true
+    },
+    {
+      "scope": "preparation",
+      "check": "População e exclusão do alias CGM/BGM preservadas",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Uma fronteira por pessoa e segmento",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "NPZ íntegro",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Todas as nove chaves da preparação presentes",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Contagem de janelas confere",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Formas da entrada e dos dois horizontes corretas",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Todos os arrays finitos",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Mesmas pessoas nas três partições",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Entrada de 12 pontos e alvos +5/+15 conferidos",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Taxas correspondem às glicemias futuras",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Leituras disponíveis na origem e alvos estritamente futuros",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Origens únicas por pessoa",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 1: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 1: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 2: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 2: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 3: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 3: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 4: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 4: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 5: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 5: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 6: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 6: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 7: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 7: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 8: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 8: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 9: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 9: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 10: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 10: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 11: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 11: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 12: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 12: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 13: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 13: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 15: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 15: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 16: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 16: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 17: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 17: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 18: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 18: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 19: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 19: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 20: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 20: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 21: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 21: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 22: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 22: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 23: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 23: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 24: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 24: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 25: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/train",
+      "check": "Subject 25: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "NPZ íntegro",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Todas as nove chaves da preparação presentes",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Contagem de janelas confere",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Formas da entrada e dos dois horizontes corretas",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Todos os arrays finitos",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Mesmas pessoas nas três partições",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Entrada de 12 pontos e alvos +5/+15 conferidos",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Taxas correspondem às glicemias futuras",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Leituras disponíveis na origem e alvos estritamente futuros",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Origens únicas por pessoa",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 1: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 1: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 2: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 2: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 3: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 3: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 4: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 4: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 5: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 5: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 6: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 6: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 7: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 7: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 8: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 8: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 9: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 9: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 10: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 10: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 11: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 11: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 12: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 12: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 13: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 13: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 15: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 15: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 16: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 16: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 17: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 17: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 18: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 18: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 19: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 19: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 20: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 20: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 21: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 21: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 22: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 22: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 23: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 23: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 24: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 24: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 25: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/stop",
+      "check": "Subject 25: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "NPZ íntegro",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Todas as nove chaves da preparação presentes",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Contagem de janelas confere",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Formas da entrada e dos dois horizontes corretas",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Todos os arrays finitos",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Mesmas pessoas nas três partições",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Entrada de 12 pontos e alvos +5/+15 conferidos",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Taxas correspondem às glicemias futuras",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Leituras disponíveis na origem e alvos estritamente futuros",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Origens únicas por pessoa",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 1: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 1: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 2: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 2: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 3: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 3: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 4: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 4: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 5: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 5: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 6: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 6: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 7: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 7: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 8: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 8: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 9: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 9: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 10: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 10: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 11: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 11: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 12: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 12: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 13: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 13: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 15: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 15: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 16: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 16: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 17: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 17: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 18: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 18: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 19: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 19: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 20: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 20: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 21: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 21: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 22: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 22: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 23: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 23: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 24: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 24: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 25: fronteira nominal fica nos primeiros 80%",
+      "passed": true
+    },
+    {
+      "scope": "B3/evaluation",
+      "check": "Subject 25: janelas respeitam a fronteira e não invadem teste",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 1: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 2: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 3: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 4: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 5: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 6: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 7: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 8: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 9: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 10: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 11: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 12: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 13: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 15: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 16: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 17: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 18: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 19: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 20: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 21: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 22: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 23: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 24: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "B3",
+      "check": "Subject 25: nenhum suporte compartilhado entre partições",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Treino concluído",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Identificação e semente conferidas",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Variante executada corresponde à pré-declarada",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Assinaturas completas das três partições correspondem ao treino",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Motor arquivado corresponde aos bytes usados no treino",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Checkpoint íntegro",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Escalas arquivadas consistentes",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "x_mean recalculado somente do treino em float64",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "x_std recalculado somente do treino em float64",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "y_mean recalculado somente do treino em float64",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "y_std recalculado somente do treino em float64",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Histórico completo, finito e dentro do orçamento",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Paciência, limite e melhor época conferidos por replay do histórico",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Melhor perda corresponde ao prefixo próprio",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Trajetória compartilhada não prolongou artificialmente a variante",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Custo da variante corresponde ao seu prefixo",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "MSE de stop não ponderado recalculado do checkpoint",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Previsões de desenvolvimento completas e apenas +15 min",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Mesmas pessoas e origens, sem duplicação ou escolha de suporte",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Todas as previsões e vetores finitos",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Previsões reproduzidas do checkpoint",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Alvo de +15 min corresponde à coluna y[:,1]",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Glicemia futura de +15 min preservada",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Glicemia da origem preservada",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Timestamp do alvo é o de +15 min",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Taxa e glicemia prevista são consistentes",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Delta previsto consistente com horizonte",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Ângulo da seta consistente",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Vetor da seta é unitário",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Métricas publicadas cobrem todos os escopos",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "Todas as métricas recalculadas das previsões",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "MAE macro all recalculado sem o agregador do core",
+      "passed": true
+    },
+    {
+      "scope": "delta_B3_s42",
+      "check": "MAE macro rapid recalculado sem o agregador do core",
+      "passed": true
+    }
+  ],
+  "checks_passed": 239,
+  "checks_failed": 0
+}

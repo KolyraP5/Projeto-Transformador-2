@@ -1,0 +1,9 @@
+{
+  "candidate": "combined",
+  "selection_stage": "screening",
+  "approved": false,
+  "pending_confirmation": true,
+  "selection_utc": "2026-11-08T02:36:42.664300+00:00",
+  "screening_sha256": "16e3373c1131d79dd252811c884883810ebf78b80ebc5da5c19679682cc07b45",
+  "reason": "Menor MAE entre candidatas que passaram por todos os criterios provisorios; sem acesso ao teste"
+}

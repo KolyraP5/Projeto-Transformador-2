@@ -1,5 +1,6 @@
 /.venv/
 /.cache/
+/Histórico2026-11-07-23_23_22.tsv
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/

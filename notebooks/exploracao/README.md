@@ -7,3 +7,7 @@ Cada estudo deve indicar qual limitação do algoritmo atual pretende resolver,
 qual partição será usada para decidir e onde seus resultados serão salvos.
 Ao encerrar, mova para `../arquivo/` e registre a decisão em
 [HISTORICO.md](../../docs/HISTORICO.md).
+
+Tentativas históricas recebidas e já encerradas ficam em
+`../arquivo/tentativas_recebidas/`; consulte a
+[análise correspondente](../../docs/analises/ANALISE_TENTATIVAS_ANTERIORES.md).

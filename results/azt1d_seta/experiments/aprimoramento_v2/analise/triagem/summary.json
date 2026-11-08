@@ -1,0 +1,103 @@
+{
+  "status": "completed",
+  "experiment": "aprimoramento_v2",
+  "variants": [
+    "baseline15",
+    "ep30",
+    "pat5",
+    "delta",
+    "relative",
+    "weighted",
+    "combined",
+    "combined_weighted"
+  ],
+  "n_trainings": 8,
+  "folds": [
+    3
+  ],
+  "seeds": [
+    42
+  ],
+  "stage": "screening",
+  "selection_is_final": false,
+  "selected_variant": "combined",
+  "horizon_min": 15,
+  "aggregation": "Média dos blocos/sementes por pessoa, seguida de média com peso igual por pessoa.",
+  "subsets": {
+    "all": "Todas",
+    "rapid": "|taxa real| >= 1",
+    "low": "|taxa real| < 0.5",
+    "extreme": "|taxa real| >= 2",
+    "zero": "taxa real exatamente zero"
+  },
+  "false_movement": "Proporção de |taxa prevista| >= 0.5 na faixa indicada; critério usado na faixa low.",
+  "interpretation": "Comparação exploratória no desenvolvimento temporal; blocos sobrepostos e sementes não são unidades independentes. Teste final não acessado por este script.",
+  "source_hashes": {
+    "prepared\\B3\\evaluation.npz": "8a18a521e8ce90189dfe83ea63aa0dac74aa5f94b7e2432d34ae730a1edd6b1a",
+    "models\\baseline15_B3_s42": {
+      "config.json": "d410280c79609c10c130c8277f1e32f00136b02b1b40a035ddf1720acb6326c4",
+      "completed.json": "89b1dc5d0480732e7d3cf15e61badb1bffc363b9b4c19a8a352b57bc0af55dc6",
+      "metrics_evaluation.csv": "ba8c0280849e696112887b974ff44b58ab31caffef8cea2b3d37a7c157d272b2",
+      "previsoes_evaluation.csv.gz": "bd7c83f0a937d22e3ffb53d6fec9e74fab3b0e3804c8a09e522f3c18599d2553",
+      "origin_signature": "da3354e85d5cbd4c7454d9c500929fa522b2773ee01dbbaa970d9d0a1c2bec0e",
+      "history.csv": "e5303473c62bebea142b6f2b81a323efbb22e171ea823c58754918a5801a50ff"
+    },
+    "models\\ep30_B3_s42": {
+      "config.json": "d59ccc1adc05043bf15b38e76f27df9777ea8ea8aefc09aeec09f0ee32c9bee8",
+      "completed.json": "4902a80633d4263f309f534868ac1e20dc0abdff6fa457de13be8bdfe0563708",
+      "metrics_evaluation.csv": "05ca0eaa755232ed3fe766243bcd9b845a256ef609bfd8d88ca9a73095b6e9e9",
+      "previsoes_evaluation.csv.gz": "f6e865891d3aeb61554d1597052f1f463ae3b1fb174807eae96399df4330e69f",
+      "origin_signature": "da3354e85d5cbd4c7454d9c500929fa522b2773ee01dbbaa970d9d0a1c2bec0e",
+      "history.csv": "eb8045306c624f6ae94d018be41dcfc59739ceea4df927454cc36b9848048bfa"
+    },
+    "models\\pat5_B3_s42": {
+      "config.json": "5c8a1275996a99c718471b6291e8e0ea8109a9302c1d9b6101820fdeebe3ae11",
+      "completed.json": "f20615dcb1d27f90d9c53fc339d8a6ed0ebb81b82d7517be2f76278cfa3e8b46",
+      "metrics_evaluation.csv": "05ca0eaa755232ed3fe766243bcd9b845a256ef609bfd8d88ca9a73095b6e9e9",
+      "previsoes_evaluation.csv.gz": "d9d7228e92fd7e8c4be2c056b520ccc2f17e19649473515234590e7f55613145",
+      "origin_signature": "da3354e85d5cbd4c7454d9c500929fa522b2773ee01dbbaa970d9d0a1c2bec0e",
+      "history.csv": "b4dfe73a8aac426924e706f7d167944c424956733cf77df6e30327da2f4125e7"
+    },
+    "models\\delta_B3_s42": {
+      "config.json": "43b30299f7b117e5872080cf1dcdaefe4de084bde53ead14bd6fb752c1e98dad",
+      "completed.json": "563226ec0c7967227ea10a567dd7dfa64baf275cb6e0b56be701dc7a29646f16",
+      "metrics_evaluation.csv": "c946632ef043b1d5c0ba1b59d68e39d918e5cb0b076260cbffa4c6bccac39205",
+      "previsoes_evaluation.csv.gz": "1248f2b5028478f18f673f4ed37852eeafe1e5db27a32df82adc21801933c369",
+      "origin_signature": "da3354e85d5cbd4c7454d9c500929fa522b2773ee01dbbaa970d9d0a1c2bec0e",
+      "history.csv": "03acbf6c75cc82b8c5068190f00eb5488ad3396f423f748f28fc9d282a18f3b8"
+    },
+    "models\\relative_B3_s42": {
+      "config.json": "67d1089a995353cca55454a372c7fbf09de7cc9f2ef1f1b26fb0a04ed3facdba",
+      "completed.json": "2c3929a9816ddb8264c57c0a29742a4ec24298ebf8fc486deea42ba7911da37b",
+      "metrics_evaluation.csv": "6338ffebb1bbae1117118897a71bb4afee6bf597e356853f2349139372420aa4",
+      "previsoes_evaluation.csv.gz": "f2d4ea71c4b639d050a2b1809e56342736caef975a20f81b8efde9ee99b5c686",
+      "origin_signature": "da3354e85d5cbd4c7454d9c500929fa522b2773ee01dbbaa970d9d0a1c2bec0e",
+      "history.csv": "d9e11469e3eb0f7987be7fb634764dd8e7b8e4732145f2e6aadadf83fa32c0fd"
+    },
+    "models\\weighted_B3_s42": {
+      "config.json": "a96cf1546beeb71d24d79502f2cddd0c1781b631887c10a0bad2451e1fa5d3ba",
+      "completed.json": "408f9e46549a983c1ab41e412bfe433fa6b9c2b645fb4476fef9b5414e7892f9",
+      "metrics_evaluation.csv": "3cb8a5b433eb5e18502b4932c4e60e755628de8ca8a8d2c9b428d6934c0fa18e",
+      "previsoes_evaluation.csv.gz": "c929b18b2dd607a9ee42314efe67011a6621e2e2fd0d0c79ea5c29325d1d2a11",
+      "origin_signature": "da3354e85d5cbd4c7454d9c500929fa522b2773ee01dbbaa970d9d0a1c2bec0e",
+      "history.csv": "f921d9943878355cd254f5c76d7dde526fa06e62fc334866a0be48bf9b947375"
+    },
+    "models\\combined_B3_s42": {
+      "config.json": "a1c2d4021365f2e04a3cdb37c0f700acb1bb0d739c24af946c9dc610fb110919",
+      "completed.json": "f0f816330a2083633698e38ab507a925b8b55369f79b65056b8dba1390d3610f",
+      "metrics_evaluation.csv": "a1eb706a521732251ab6d1ebe447bff75eb0660265c58cba28044691e9963c16",
+      "previsoes_evaluation.csv.gz": "d121c6debbe54ce8b486ee83080bec79032addb1416da30e09052d64e1c6ffdd",
+      "origin_signature": "da3354e85d5cbd4c7454d9c500929fa522b2773ee01dbbaa970d9d0a1c2bec0e",
+      "history.csv": "eed3fa821f8713506e387545a2e72e71375195f4a63681922a17f3a7e23e1ab6"
+    },
+    "models\\combined_weighted_B3_s42": {
+      "config.json": "06356eec99cc630f99b95cd006c4bb88d9e57a3322b6672fa468d2c42e695db5",
+      "completed.json": "ac5055a67b359c23f95d34276a0ab847b979623cba4fd86965006cb00fb767b3",
+      "metrics_evaluation.csv": "ba2c1ddca6a453800e21e4eb94634a2cbee53c9d278fe7ddffa2b2a3ec58e14f",
+      "previsoes_evaluation.csv.gz": "a43d1ec6bc55732f9150513dae0847d3d20b25a6cddaaec6c4ce2def7c848e87",
+      "origin_signature": "da3354e85d5cbd4c7454d9c500929fa522b2773ee01dbbaa970d9d0a1c2bec0e",
+      "history.csv": "6e492c630ce05aac1acabfa7eed572028eab0ca26e5a05efa9c685be9219d437"
+    }
+  },
+  "script_sha256": "4f05ed15e09b83ed372ed6473e4dbc6169272c2c894dda9391e59c5004daa3e4"
+}

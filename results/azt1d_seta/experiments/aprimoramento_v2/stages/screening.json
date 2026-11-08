@@ -1,5 +1,5 @@
 {
-  "status": "running",
+  "status": "completed",
   "started_utc": "2026-11-08T02:23:23.070938+00:00",
   "arguments": {
     "experiment_name": "aprimoramento_v2",
@@ -199,8 +199,54 @@
       ]
     }
   ],
-  "completed_tasks": [],
+  "completed_tasks": [
+    {
+      "task": "delta_B3_s42",
+      "seconds": 251.28154639998684,
+      "variants": [
+        "delta"
+      ]
+    },
+    {
+      "task": "baseline15+ep30+pat5_B3_s42",
+      "seconds": 391.8413494999986,
+      "variants": [
+        "baseline15",
+        "ep30",
+        "pat5"
+      ]
+    },
+    {
+      "task": "relative_B3_s42",
+      "seconds": 215.56224639998982,
+      "variants": [
+        "relative"
+      ]
+    },
+    {
+      "task": "weighted_B3_s42",
+      "seconds": 169.68689940002514,
+      "variants": [
+        "weighted"
+      ]
+    },
+    {
+      "task": "combined_B3_s42",
+      "seconds": 176.6775931000011,
+      "variants": [
+        "combined"
+      ]
+    },
+    {
+      "task": "combined_weighted_B3_s42",
+      "seconds": 204.16872720001265,
+      "variants": [
+        "combined_weighted"
+      ]
+    }
+  ],
   "protocol_sha256": "3af4f59870a7cecb68451c399d8fbe7319e5149ff905a4a0d466a24951ea9282",
   "engine_sha256": "c9f1021cf4a00fb152cd6a4b50d28a098cb34552bc76d5d4e5bae8ac0d9ed161",
-  "script_sha256": "31bcb8f0a533900bc2f46dfa9e6000b5408a7e1f8b3d67f417c8a1381033a842"
+  "script_sha256": "31bcb8f0a533900bc2f46dfa9e6000b5408a7e1f8b3d67f417c8a1381033a842",
+  "finished_utc": "2026-11-08T02:36:12.238366+00:00"
 }

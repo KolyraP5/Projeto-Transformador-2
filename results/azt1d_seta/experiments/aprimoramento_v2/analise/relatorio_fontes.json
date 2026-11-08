@@ -1,0 +1,10 @@
+{
+  "script_sha256": "ae7108fa010702edecd999f3a51149a59cffd5a4e3aa2c20eba66d77ca1e2135",
+  "source_hashes": {
+    "triagem\\comparison.csv": "55d1f8337a7adb2054ff82f462009bea04bdce1f1f9b6053af8bca2dfcdefbb6",
+    "triagem\\acceptance.json": "16e3373c1131d79dd252811c884883810ebf78b80ebc5da5c19679682cc07b45",
+    "triagem\\summary.json": "97ef5a53c70d874bd9a12f2baaa4d1dc9dfa395140a37d7a33bca8c6aeb9078d",
+    "triagem\\training_cost.csv": "f1df2c625dacc8f86fd22fa0d5a53d5aa87ab0a0c3dfd4565e16a011099329e4"
+  },
+  "final_test_accessed": false
+}

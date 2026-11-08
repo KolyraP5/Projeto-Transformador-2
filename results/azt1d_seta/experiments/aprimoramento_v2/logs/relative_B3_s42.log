@@ -1,0 +1,15 @@
+relative seed=42 epoch=1/15 train=0.747217 stop=0.746587
+relative seed=42 epoch=2/15 train=0.718399 stop=0.737545
+relative seed=42 epoch=3/15 train=0.710198 stop=0.733391
+relative seed=42 epoch=4/15 train=0.704936 stop=0.727718
+relative seed=42 epoch=5/15 train=0.701607 stop=0.730543
+relative seed=42 epoch=6/15 train=0.698490 stop=0.726210
+relative seed=42 epoch=7/15 train=0.695634 stop=0.716848
+relative seed=42 epoch=8/15 train=0.691993 stop=0.713776
+relative seed=42 epoch=9/15 train=0.688346 stop=0.717963
+relative seed=42 epoch=10/15 train=0.684774 stop=0.708690
+relative seed=42 epoch=11/15 train=0.681615 stop=0.711996
+relative seed=42 epoch=12/15 train=0.678743 stop=0.705062
+relative seed=42 epoch=13/15 train=0.677367 stop=0.704060
+relative seed=42 epoch=14/15 train=0.675216 stop=0.703234
+relative seed=42 epoch=15/15 train=0.674098 stop=0.706796
