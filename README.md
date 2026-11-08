@@ -21,6 +21,7 @@ que seja possível acompanhar a evolução da pesquisa.
 | O fluxo executável da seta | [Notebook atual](notebooks/atual/AZT1D_Setas_e_Tendencia.ipynb) |
 | A rodada completa e sua interpretação | [Análise de full_v1](docs/analises/ANALISE_FULL_V1.md) |
 | A bateria de melhorias e sua validação | [Aprimoramento v2](docs/analises/ANALISE_APRIMORAMENTO_V2.md) |
+| O teste zero-shot pessoal e a comparação com a tendência de 30 min | [Avaliação externa pessoal](docs/analises/TESTE_PESSOAL_ZEROSHOT.md) |
 | Os aprimoramentos seguintes | [Plano de evolução do algoritmo](docs/PLANO_APRIMORAMENTO.md) |
 | Como reproduzir localmente ou no Colab | [Execução e resultados](docs/EXECUCAO.md) |
 
@@ -72,6 +73,8 @@ A bateria `aprimoramento_v2` testa oito configurações de +15 minutos e verific
 a melhor candidata em blocos temporais e sementes adicionais. O
 [guia específico](docs/EXECUCAO_APRIMORAMENTO.md) descreve os comandos, as fontes
 e os critérios; o relatório distingue triagem, confirmação e avaliação final.
+A confirmação ampliada foi interrompida por prazo, preservando os resultados
+completos e identificando os parciais. A candidata permanece provisória.
 
 A proposta original de previsão a +30 minutos com transfer learning está
 preservada como histórico. Seu protocolo difere do atual; seus números não

@@ -13,3 +13,7 @@ __pycache__/
 !/results/azt1d_seta/runs/full_v1_resultados.zip
 /results/azt1d_seta/azt1d_core.py
 /results/azt1d_seta/logs/
+
+# Arquivos pessoais soltos na raiz e resultados derivados.
+/Stream*.tsv
+/results/pessoal/
