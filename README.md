@@ -1,219 +1,76 @@
-# Previsão Personalizada de Glicemia em Diabetes Tipo 1
-
-Projeto desenvolvido para a disciplina *Experiência Criativa: Projeto Transformador II*, do curso de Ciência da Computação da PUCPR.
-
-O objetivo do projeto é investigar se um modelo populacional de previsão glicêmica pode apresentar melhor desempenho para indivíduos não observados após a aplicação de *Transfer Learning* e *Fine-Tuning* específicos por paciente.
-
-## Visão Geral
-
-A proposta utiliza dados de pacientes com Diabetes Mellitus Tipo 1 para prever valores futuros de glicemia.
-
-O modelo principal será baseado em uma rede *Long Short-Term Memory (LSTM)*, inicialmente treinada com dados de múltiplos indivíduos para aprender padrões gerais de comportamento glicêmico.
-
-Posteriormente, o modelo será adaptado para pacientes específicos por meio de Transfer Learning e Fine-Tuning.
-
-Fluxo geral:
-
-text
-AZT1D
-  ↓
-Pré-processamento
-  ↓
-CGM + Insulina + Carboidratos
-  ↓
-LSTM populacional
-  ↓
-Transfer Learning
-  ↓
-Fine-Tuning por paciente
-  ↓
-Modelo personalizado
-  ↓
-Comparação de desempenho
-
-
-## Dataset
-
-Será utilizado o dataset *AZT1D*, composto por dados reais de 25 indivíduos com Diabetes Mellitus Tipo 1.
-
-Principais dados utilizados:
-
-* Continuous Glucose Monitoring (CGM);
-* administração de insulina;
-* ingestão de carboidratos;
-* modos do dispositivo.
-
-Dataset:
-
-https://doi.org/10.17632/gk9m674wcx.1
-
-Os arquivos originais do AZT1D não serão armazenados diretamente neste repositório.
-
-## Configuração Inicial do Experimento
-
-A configuração inicial prevista é:
-
-* aproximadamente *60 minutos de histórico* como entrada;
-* previsão da glicemia *30 minutos à frente*;
-* entradas principais:
-
-  * CGM;
-  * insulina;
-  * carboidratos.
-
-As métricas principais de avaliação serão:
-
-* RMSE;
-* MAE.
-
-Como análise adicional, poderá ser utilizada a Clarke Error Grid.
-
-## Estratégia Experimental
-
-Os participantes serão separados em nível de indivíduo para evitar vazamento de dados.
-
-O experimento principal será dividido em duas condições:
-
-1. *Modelo populacional*
-
-   * treinado utilizando dados de múltiplos participantes;
-   * avaliado em participantes não utilizados durante o treinamento.
-
-2. *Modelo personalizado*
-
-   * inicia com os pesos do modelo populacional;
-   * utiliza parte dos dados do novo paciente para Fine-Tuning;
-   * é posteriormente avaliado em dados cronologicamente posteriores do mesmo participante.
-
-Também poderão ser avaliadas diferentes quantidades de dados individuais utilizadas durante o Fine-Tuning.
-
-## Tecnologias
-
-Principais tecnologias previstas:
-
-* Python;
-* TensorFlow / Keras;
-* pandas;
-* NumPy;
-* scikit-learn;
-* Matplotlib;
-* Jupyter Notebook / Google Colab.
-
-## Estrutura Planejada do Repositório
-
-text
-.
-├── README.md
-├── requirements.txt
-├── src/
-│   ├── preprocessing/
-│   ├── models/
-│   ├── training/
-│   └── evaluation/
-│
-├── notebooks/
-│   ├── data_exploration.ipynb
-│   └── baseline_lstm.ipynb
-│
-├── configs/
-├── logs/
-├── results/
-└── models/
-
-
-A estrutura poderá ser modificada conforme o desenvolvimento do projeto.
-
-## Planejamento
-
-### Etapa 1 — Revisão e definição do protocolo
-
-* revisar trabalhos relacionados;
-* definir entradas e horizonte de previsão;
-* definir métricas;
-* consolidar protocolo experimental.
-
-*Marco:* protocolo experimental definido.
-
-### Etapa 2 — Preparação do AZT1D
-
-* baixar e inspecionar o dataset;
-* identificar os dados de CGM, insulina e carboidratos;
-* alinhar registros temporais;
-* tratar dados ausentes;
-* criar janelas temporais para treinamento.
-
-*Marco:* pipeline inicial de pré-processamento funcional.
-
-### Etapa 3 — Baseline LSTM
-
-* implementar uma LSTM inicial;
-* executar treinamento populacional;
-* calcular RMSE e MAE;
-* armazenar logs e resultados.
-
-*Marco:* baseline populacional executável com resultados iniciais.
-
-### Etapa 4 — Transfer Learning e Fine-Tuning
-
-* carregar os pesos do modelo populacional;
-* adaptar o modelo utilizando dados individuais;
-* reservar dados posteriores para avaliação.
-
-*Marco:* pipeline de personalização funcional.
-
-### Etapa 5 — Experimentos
-
-* comparar modelo populacional e personalizado;
-* avaliar diferentes quantidades de dados de Fine-Tuning;
-* testar estratégias adicionais quando viável.
-
-*Marco:* resultados comparativos por participante.
-
-### Etapa 6 — Análise
-
-* consolidar RMSE e MAE;
-* analisar ganhos de personalização;
-* gerar tabelas e gráficos;
-* discutir limitações.
-
-*Marco:* resultados finais organizados.
-
-### Etapa 7 — Artigo e Reprodutibilidade
-
-* organizar código;
-* documentar experimentos;
-* preservar configurações e logs;
-* preparar artigo e pôster.
-
-*Marco:* repositório reproduzível e documentação final.
-
-## Cronograma
-
-| Período        | Atividade principal                                                 |
-| -------------- | ------------------------------------------------------------------- |
-| 29/08–11/09    | Revisão bibliográfica e início do processamento                     |
-| 12/09–25/09    | Processamento do AZT1D e LSTM inicial                               |
-| 26/09–09/10    | Modelo populacional e início do Fine-Tuning                         |
-| 10/10–23/10    | Transfer Learning e experimentação                                  |
-| 24/10–31/10    | Análise e consolidação dos resultados                               |
-| *31/10/2026* | *Entrega 02 — Codificação, Metodologia Implementada e Resultados* |
-| 01/11–09/11    | Artigo científico e pôster                                          |
-| *09/11/2026* | *Entrega 03a — Artigo Científico e Pôster*                        |
-
-## Status Atual
-
-Projeto em fase inicial de planejamento e implementação.
-
-Próximos passos:
-
-* preparar ambiente de desenvolvimento;
-* baixar e explorar o AZT1D;
-* identificar o formato dos dados;
-* implementar o pipeline inicial de pré-processamento;
-* criar a primeira versão da LSTM baseline.
-
-## Equipe
-
-* Gustavo Faria Cardoso
-* Mateus da Silva Maciel de Lima
-* Pedro Costa Lyra
+# AZT1D — Evolução da pesquisa e seta de tendência
+
+Pesquisa da disciplina **Experiência Criativa: Projeto Transformador II**, Ciência
+da Computação — PUCPR. Equipe: Gustavo Faria Cardoso, Mateus da Silva Maciel de
+Lima e Pedro Costa Lyra.
+
+O foco atual é estimar a **taxa média futura da glicemia** a partir do histórico
+de CGM e representá-la como uma seta contínua. A equipe escolheu essa direção
+após explorar outras ideias; as próximas versões aprimoram esse mesmo algoritmo.
+Este repositório preserva também a proposta inicial e as etapas anteriores para
+que seja possível acompanhar a evolução da pesquisa.
+
+## Por onde começar
+
+| Para acompanhar… | Abra |
+|---|---|
+| O inventário objetivo dos artefatos para entrega | [readme.txt](readme.txt) |
+| A evolução, decisões e evidências disponíveis | [Histórico da pesquisa](docs/HISTORICO.md) |
+| O algoritmo atual, dados e critérios de avaliação | [Protocolo atual](docs/PROTOCOLO_ATUAL.md) |
+| O fluxo executável da seta | [Notebook atual](notebooks/atual/AZT1D_Setas_e_Tendencia.ipynb) |
+| A rodada completa e sua interpretação | [Análise de full_v1](docs/analises/ANALISE_FULL_V1.md) |
+| Os aprimoramentos seguintes | [Plano de evolução do algoritmo](docs/PLANO_APRIMORAMENTO.md) |
+| Como reproduzir localmente ou no Colab | [Execução e resultados](docs/EXECUCAO.md) |
+
+## Organização
+
+```text
+notebooks/
+  atual/                 # Fluxo de referência da seta
+  arquivo/               # Etapas anteriores, preservadas com seus resultados
+  exploracao/            # Novas análises e estudos auxiliares
+docs/
+  HISTORICO.md           # Índice das etapas e das decisões
+  PROTOCOLO_ATUAL.md      # O que o experimento atual realmente mede
+  analises/              # Leitura do dataset e dos resultados executados
+  planejamento-inicial/  # Proposta original e materiais associados
+  templates/             # Modelo para registrar outra tentativa
+src/
+  seta_tendencia/         # Código legível do algoritmo atual
+  preprocessing/         # Pipeline da etapa histórica v0
+scripts/                 # Execução e verificação reproduzíveis
+results/
+  azt1d_seta/runs/        # Uma pasta imutável por execução
+AZT1D 2025/               # Dataset original neste checkout, sem modificações
+```
+
+## Como acrescentar uma tentativa
+
+1. Guarde o notebook em `notebooks/exploracao/` enquanto estiver em andamento.
+   Use um nome como `04_descricao_curta.ipynb`.
+2. Copie o [modelo de registro](docs/templates/REGISTRO_TENTATIVA.md) para
+   `docs/analises/`. Registre hipótese, configuração, responsáveis, resultados e
+   decisão, inclusive quando a ideia não funcionar.
+3. Ao encerrar a tentativa, mova o notebook para `notebooks/arquivo/`, preserve
+   suas saídas relevantes e adicione uma linha no [histórico](docs/HISTORICO.md).
+4. Use outro nome em `results/` para cada configuração. Não substitua métricas de
+   uma rodada antiga por resultados de uma nova versão.
+
+O [índice dos notebooks](notebooks/README.md) identifica o papel de cada arquivo.
+Materiais ainda não recuperados devem ser indicados como pendentes, sem atribuir
+resultados que não estejam documentados.
+
+## Estado da pesquisa
+
+`quick_v1` é a verificação pequena do fluxo. `full_v1` executa a configuração
+completa, com divisão cronológica por pessoa, duas LSTMs (+5 e +15 minutos) e três
+baselines por horizonte. As saídas e a análise ficam nos links acima.
+
+A proposta original de previsão a +30 minutos com transfer learning está
+preservada como histórico. Seu protocolo difere do atual; seus números não
+estabelecem uma comparação direta entre as abordagens. A escolha de continuar
+com a seta é uma decisão da equipe, e os ganhos do preditor atual são avaliados
+contra os baselines do próprio experimento.
+
+Fonte dos dados: [AZT1D v1, Mendeley Data](https://doi.org/10.17632/gk9m674wcx.1),
+CC BY 4.0. A avaliação atual é exploratória e não constitui validação clínica.

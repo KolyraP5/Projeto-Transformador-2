@@ -1,0 +1,43 @@
+{
+  "fingerprint": "6c9f088156f380dbc1b2732a2129c3de4e8e66b7365a7fb8815dd6261e7b5e9c",
+  "chosen_horizon_min": 15,
+  "validation_summary": [
+    {
+      "horizon_min": 5,
+      "best_baseline": "ultima_variacao",
+      "mae_lstm": 0.625611522800607,
+      "mae_best_baseline": 0.6183778534430698,
+      "gain": -0.011697814398204498,
+      "fraction_subjects_improved": 0.6666666666666666,
+      "rapid_mae_lstm": 1.3724481683866745,
+      "rapid_mae_baseline": 1.0669787249336382,
+      "rapid_sign_opposite_lstm": 0.1927678787454681,
+      "rapid_sign_opposite_baseline": 0.1547261180022064,
+      "candidate": false,
+      "rapid_sign_correct_lstm": 0.8072321212545318,
+      "rapid_sign_correct_baseline": 0.8135905357158272
+    },
+    {
+      "horizon_min": 15,
+      "best_baseline": "persistencia",
+      "mae_lstm": 0.5556735902577299,
+      "mae_best_baseline": 0.6253363721872766,
+      "gain": 0.11140049584175471,
+      "fraction_subjects_improved": 1.0,
+      "rapid_mae_lstm": 1.2966528474906973,
+      "rapid_mae_baseline": 1.5817019553580238,
+      "rapid_sign_opposite_lstm": 0.21888326618985723,
+      "rapid_sign_opposite_baseline": 0.0,
+      "candidate": true,
+      "rapid_sign_correct_lstm": 0.7811167338101427,
+      "rapid_sign_correct_baseline": 0.0
+    }
+  ],
+  "exploratory_prior_test_access": false,
+  "rule": "Ganho macro >0, maioria dos participantes, sem piora de MAE ou acerto de sinal em mudanças rápidas. Empate <=0.02 favorece 15. Prever zero conta como erro direcional quando a taxa real é não nula.",
+  "validation_sha256": "aac0ff98bdd48edfa23378bfe96f34fc5d609d3de40291f619010387885a905e",
+  "model_hashes": {
+    "5": "9d17f687cf39c6a8bf78c472d7ab3b1ec4969c1c3725767c07c03b0df9f5951b",
+    "15": "afb6f9e7090d9f6aa328922da2a46b3a55b21bdee720a4ba330f6791186e1c62"
+  }
+}

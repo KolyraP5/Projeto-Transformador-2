@@ -1,2 +1,14 @@
-/.venv
-/.venv
+/.venv/
+/.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Artefatos grandes são regeneráveis; métricas, pesos, figuras e relatórios ficam.
+/results/**/prepared/
+/results/**/previsoes_*.csv.gz
+/results/**/*.zip
+!/results/azt1d_seta/runs/full_v1_resultados.zip
+/results/azt1d_seta/azt1d_core.py
+/results/azt1d_seta/logs/

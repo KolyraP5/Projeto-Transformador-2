@@ -1,0 +1,9 @@
+absolute seed=42 epoch=1/30 train=0.799826 stop=0.766163
+absolute seed=42 epoch=2/30 train=0.736834 stop=0.755781
+absolute seed=42 epoch=3/30 train=0.730292 stop=0.753187
+absolute seed=42 epoch=4/30 train=0.725499 stop=0.749187
+absolute seed=42 epoch=5/30 train=0.720284 stop=0.748214
+absolute seed=42 epoch=6/30 train=0.715204 stop=0.744761
+absolute seed=42 epoch=7/30 train=0.712151 stop=0.737164
+absolute seed=42 epoch=8/30 train=0.709046 stop=0.741997
+absolute seed=42 epoch=9/30 train=0.706248 stop=0.738018

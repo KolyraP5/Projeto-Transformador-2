@@ -1,0 +1,9 @@
+{
+  "fingerprint": "67688855e48c379fe86e16b0aab1e6aee5f5132be12692ea349f233b8e82751c",
+  "seed": 42,
+  "epochs_ran": 15,
+  "best_val_mse_scaled": 0.6866802042869685,
+  "train_seconds": 154.3466743999743,
+  "val_inference_seconds": 0.1199182000127621,
+  "weights_sha256": "96110474f41152245279526aafeab0b2825f45c167936beaa2682370c835714b"
+}

@@ -1,0 +1,18 @@
+{
+  "horizon_min": 15,
+  "seed": 42,
+  "hidden": 32,
+  "batch_size": 64,
+  "lr": 0.001,
+  "epochs": 3,
+  "patience": 3,
+  "device": "cpu",
+  "fingerprint": "6c9f088156f380dbc1b2732a2129c3de4e8e66b7365a7fb8815dd6261e7b5e9c",
+  "scales": {
+    "x_mean": 146.10650634765625,
+    "x_std": 41.872520446777344,
+    "y_mean": -0.00988681335002184,
+    "y_std": 0.8991050124168396
+  },
+  "version": "1.0.0"
+}

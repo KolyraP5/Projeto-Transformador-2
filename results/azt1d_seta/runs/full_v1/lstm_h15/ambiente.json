@@ -1,0 +1,8 @@
+{
+  "python": "3.14.8",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.3",
+  "pandas": "2.3.3",
+  "cuda": null,
+  "gpu": null
+}

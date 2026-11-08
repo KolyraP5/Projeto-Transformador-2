@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "objective": "Melhorar a seta continua de +15 min: erro geral, estabilidade e magnitude dos extremos",
+  "authorization": "Pedido da equipe para executar todas as ideias de aprimoramento, com custo controlado por etapas",
+  "training": {"hidden": 32, "batch_size": 64, "lr": 0.001, "processes": 2, "threads_per_process": 2},
+  "variants": {
+    "baseline15": {"feature_mode": "absolute", "max_epochs": 15, "patience": 3, "rapid_weight": 1.0},
+    "ep30": {"feature_mode": "absolute", "max_epochs": 30, "patience": 3, "rapid_weight": 1.0},
+    "pat5": {"feature_mode": "absolute", "max_epochs": 30, "patience": 5, "rapid_weight": 1.0},
+    "delta": {"feature_mode": "delta", "max_epochs": 15, "patience": 3, "rapid_weight": 1.0},
+    "relative": {"feature_mode": "relative", "max_epochs": 15, "patience": 3, "rapid_weight": 1.0},
+    "weighted": {"feature_mode": "absolute", "max_epochs": 15, "patience": 3, "rapid_weight": 1.5},
+    "combined": {"feature_mode": "combined", "max_epochs": 30, "patience": 5, "rapid_weight": 1.0},
+    "combined_weighted": {"feature_mode": "combined", "max_epochs": 30, "patience": 5, "rapid_weight": 1.5}
+  },
+  "stages": [
+    {"name": "screening", "blocks": ["B3"], "seeds": [42], "variants": "all eight predeclared variants"},
+    {"name": "confirmation", "blocks": ["B1", "B2", "B3"], "seeds": [42, 43, 44], "variants": "baseline15 and best promising candidate from screening; no test used"},
+    {"name": "final", "partition": "original train60/val20/test20", "seed": 42, "rule": "train chosen configuration using train/validation only; freeze before test diagnostic"}
+  ],
+  "screening_selection": "Prefer candidates satisfying all safeguards; among those, lowest macro MAE. If none, confirm lowest macro-MAE promising candidate as investigation; never label approved until all confirmation criteria pass",
+  "acceptance": {
+    "relative_macro_mae_gain_min": 0.02,
+    "fraction_subjects_improved_min_exclusive": 0.5,
+    "blocks_improved_min": 2,
+    "seeds_improved_min": 2,
+    "rapid_mae_sign_and_opposite_no_worse": true,
+    "stable_mae_no_worse_and_false_motion_lower": true,
+    "extreme_mae_and_sign_no_worse": true,
+    "same_origins_and_participants": true
+  },
+  "combination_note": "Combined channels with and without weighted loss are explicitly tested for interactions, including when an isolated modification fails",
+  "test_policy": "Exploratory; never used to choose candidate or change acceptance criteria",
+  "preparation": "manifest.json and all three blocks remain frozen; configs/aprimoramento_v2.json records the initial grid draft"
+}

@@ -1,0 +1,140 @@
+Cell 1: # @title 1. Ambiente, Google Drive e identificação da execução
+Projeto: C:\Users\gusta\OneDrive\Documentos\GitHub\Projeto-Transformador-2\results\azt1d_seta
+Execução: C:\Users\gusta\OneDrive\Documentos\GitHub\Projeto-Transformador-2\results\azt1d_seta\runs\full_v1
+
+Cell 2: # @title 2. Salvar funções compartilhadas (execute; esta célula pode ficar recolhida)
+Código comum salvo: C:\Users\gusta\OneDrive\Documentos\GitHub\Projeto-Transformador-2\results\azt1d_seta\azt1d_core.py
+
+Cell 3: # @title Carregar código compartilhado deste experimento
+Cell 5: # @title Configuração da base
+Dados: C:\Users\gusta\OneDrive\Documentos\GitHub\Projeto-Transformador-2\AZT1D 2025\CGM Records
+Modo: completo
+
+Cell 6: # @title 4. Preparar dados, alvos e divisões temporais
+Participantes incluídos: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+Janelas: {'train': {'before_sampling': 166073, 'used': 166073}, 'val': {'before_sampling': 55394, 'used': 55394}, 'test': {'before_sampling': 55010, 'used': 55010}}
+Tempo de preparação (s): 2.76
+Exclusões registradas: [{'subject': 14, 'reason': 'alias_CGM_BGM_nao_confirmado'}]
+
+Cell 8: import pandas as pd
+Cell 9: # @title Exemplo de treino, sem acessar o teste
+Origem: 2023-12-08 01:00:00
+Alvos reais de treino [5, 15] min: [164. 168.]
+Taxas reais de treino [5, 15] mg/dL/min: [0.4 0.4]
+
+C:\Users\gusta\AppData\Local\Temp\ipykernel_24724\3129136629.py:19: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  ax.legend(); plt.show()
+
+Cell 11: baseline_metrics = core.baseline_validation(RUN_DIR)
+Próximo passo: treinar os dois horizontes neste notebook.
+
+Cell 13: # @title 2. Conferir execução preparada
+Participantes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+Modo rápido: False
+Épocas máximas: 15
+Janelas: {'train': {'before_sampling': 166073, 'used': 166073}, 'val': {'before_sampling': 55394, 'used': 55394}, 'test': {'before_sampling': 55010, 'used': 55010}}
+
+Dispositivo: CPU
+
+Cell 14: # @title 3. Treinar e salvar melhor estado de validação
+h=5 | época 1/15 | treino=0.75671 | validação=0.68600
+
+h=5 | época 2/15 | treino=0.67905 | validação=0.68032
+
+h=5 | época 3/15 | treino=0.67548 | validação=0.68049
+
+h=5 | época 4/15 | treino=0.67229 | validação=0.67473
+
+h=5 | época 5/15 | treino=0.66988 | validação=0.67374
+
+h=5 | época 6/15 | treino=0.66769 | validação=0.68144
+
+h=5 | época 7/15 | treino=0.66621 | validação=0.67143
+
+h=5 | época 8/15 | treino=0.66408 | validação=0.67544
+
+h=5 | época 9/15 | treino=0.66213 | validação=0.66868
+
+h=5 | época 10/15 | treino=0.66048 | validação=0.66412
+
+h=5 | época 11/15 | treino=0.65840 | validação=0.66481
+
+h=5 | época 12/15 | treino=0.65701 | validação=0.66268
+
+h=5 | época 13/15 | treino=0.65525 | validação=0.66126
+
+h=5 | época 14/15 | treino=0.65376 | validação=0.66277
+
+h=5 | época 15/15 | treino=0.65184 | validação=0.65789
+
+Cell 16: from IPython.display import display
+Artefatos: C:\Users\gusta\OneDrive\Documentos\GitHub\Projeto-Transformador-2\results\azt1d_seta\runs\full_v1\lstm_h5
+
+C:\Users\gusta\AppData\Local\Temp\ipykernel_24724\2714195434.py:7: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+Cell 17: # @title 5. Primeiras previsões contínuas de validação
+Cada valor produz uma inclinação contínua, sem três classes.
+
+Cell 19: # @title 2. Conferir execução preparada
+Participantes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+Modo rápido: False
+Épocas máximas: 15
+Janelas: {'train': {'before_sampling': 166073, 'used': 166073}, 'val': {'before_sampling': 55394, 'used': 55394}, 'test': {'before_sampling': 55010, 'used': 55010}}
+Dispositivo: CPU
+
+Cell 20: # @title 3. Treinar e salvar melhor estado de validação
+h=15 | época 1/15 | treino=0.79983 | validação=0.73133
+
+h=15 | época 2/15 | treino=0.73683 | validação=0.72189
+
+h=15 | época 3/15 | treino=0.73029 | validação=0.71872
+
+h=15 | época 4/15 | treino=0.72550 | validação=0.71628
+
+h=15 | época 5/15 | treino=0.72028 | validação=0.71330
+
+h=15 | época 6/15 | treino=0.71520 | validação=0.71060
+
+h=15 | época 7/15 | treino=0.71215 | validação=0.70151
+
+h=15 | época 8/15 | treino=0.70905 | validação=0.71011
+
+h=15 | época 9/15 | treino=0.70625 | validação=0.70229
+
+h=15 | época 10/15 | treino=0.70370 | validação=0.69444
+
+h=15 | época 11/15 | treino=0.70140 | validação=0.69739
+
+h=15 | época 12/15 | treino=0.69818 | validação=0.69284
+
+h=15 | época 13/15 | treino=0.69627 | validação=0.68792
+
+h=15 | época 14/15 | treino=0.69360 | validação=0.68724
+
+h=15 | época 15/15 | treino=0.69243 | validação=0.68668
+
+Cell 22: from IPython.display import display
+Artefatos: C:\Users\gusta\OneDrive\Documentos\GitHub\Projeto-Transformador-2\results\azt1d_seta\runs\full_v1\lstm_h15
+
+C:\Users\gusta\AppData\Local\Temp\ipykernel_24724\2714195434.py:7: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+Cell 23: # @title 5. Primeiras previsões contínuas de validação
+Cada valor produz uma inclinação contínua, sem três classes.
+
+Cell 25: # @title 2. Comparar somente validação
+Cell 27: # @title Congelar seleção
+Horizonte escolhido: 15
+Decisão salva antes de calcular métricas no teste.
+
+Cell 29: test_predictions, test_metrics = core.test_results(RUN_DIR)
+Cell 31: import matplotlib.pyplot as plt
+C:\Users\gusta\AppData\Local\Temp\ipykernel_24724\1730604650.py:3: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+Cell 32: # @title 6. Gerar relatório e ZIP
+ZIP com métricas, previsões, gráficos, código e pesos: C:\Users\gusta\OneDrive\Documentos\GitHub\Projeto-Transformador-2\results\azt1d_seta\runs\full_v1_resultados.zip
+Caches de dados permanecem na pasta do projeto e não são duplicados no ZIP.
+
+Cell 33: # @title 7. Baixar resultados (opcional)

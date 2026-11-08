@@ -1,0 +1,40 @@
+{
+  "experiment_name": "aprimoramento_v2",
+  "horizon_min": 15,
+  "seeds": [42, 43, 44],
+  "threads_per_process": 1,
+  "preparation": {"dayfirst": false, "date_format": "mixed", "allow_mixed_alias": false},
+  "blocks": {
+    "B1": {"train": [0.0, 0.4], "stop": [0.4, 0.5], "evaluation": [0.5, 0.6]},
+    "B2": {"train": [0.0, 0.5], "stop": [0.5, 0.6], "evaluation": [0.6, 0.7]},
+    "B3": {"train": [0.0, 0.6], "stop": [0.6, 0.7], "evaluation": [0.7, 0.8]}
+  },
+  "variants": {
+    "baseline15": {"feature_mode": "absolute", "max_epochs": 15, "patience": 3, "rapid_weight": 1.0},
+    "ep30": {"feature_mode": "absolute", "max_epochs": 30, "patience": 3, "rapid_weight": 1.0},
+    "pat5": {"feature_mode": "absolute", "max_epochs": 30, "patience": 5, "rapid_weight": 1.0},
+    "delta": {"feature_mode": "delta", "max_epochs": 15, "patience": 3, "rapid_weight": 1.0},
+    "relative": {"feature_mode": "relative", "max_epochs": 15, "patience": 3, "rapid_weight": 1.0},
+    "weighted": {"feature_mode": "absolute", "max_epochs": 15, "patience": 3, "rapid_weight": 1.5}
+  },
+  "combined": {"policy": "combine_only_changes_approved_on_development", "max_additional_trajectories": 9},
+  "training": {"hidden": 32, "batch_size": 64, "lr": 0.001},
+  "acceptance": {
+    "minimum_relative_macro_mae_gain": 0.02,
+    "minimum_fraction_subjects_improved_exclusive": 0.5,
+    "minimum_blocks_with_gain": 2,
+    "minimum_seeds_with_gain": 2,
+    "rapid_abs_real_rate_min": 1.0,
+    "stable_abs_real_rate_max_exclusive": 0.5,
+    "stable_abs_prediction_threshold": 0.5,
+    "extreme_abs_real_rate_min": 2.0,
+    "no_worse_rapid_mae_direction_or_opposite": true,
+    "no_worse_stable_mae_and_reduce_false_motion": true,
+    "no_worse_extreme_mae_and_direction": true,
+    "preserve_coverage": true
+  },
+  "evaluation_status": "exploratory_prior_test_access",
+  "selection_data": "first_80_percent_only; epoch_chosen_on_stop; configuration_compared_on_evaluation",
+  "test_policy": "current_test_for_diagnosis_only_after_configuration_freeze",
+  "trajectory_reuse": "baseline15_ep30_pat5_share_identical_training_trajectory_and_reconstruct_each_stopping_rule"
+}

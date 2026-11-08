@@ -1,0 +1,13 @@
+{
+  "run_name": "full_v1",
+  "mode": "full",
+  "started_utc": "2026-11-08T00:43:21.242150+00:00",
+  "finished_utc": "2026-11-08T00:49:05.252706+00:00",
+  "status": "completed",
+  "error": null,
+  "python": "C:\\Users\\gusta\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "prior_test_access": true,
+  "prior_test_reason": "quick_v1 já acessou parte dos períodos de teste",
+  "notebook_sha256": "8651a591976ccc01254dfb3333fda99476cc46101bb5ba7c4d393645a4ba9662",
+  "core_sha256": "d20343826d24973c0ffd22afeb2966612e613e61fa4df7d56c7d2269acb23f63"
+}

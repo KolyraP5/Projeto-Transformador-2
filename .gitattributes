@@ -1,0 +1,12 @@
+# O core congelado é identificado pelo hash dos bytes, inclusive quebras de linha.
+*.py text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+requirements.txt text eol=lf
+
+# Preserva snapshots e dados exatamente como foram executados, com diff textual.
+*.ipynb -text
+/results/azt1d_seta/** -text
+"/AZT1D 2025/**" -text
+/docs/planejamento-inicial/README_original.md -text

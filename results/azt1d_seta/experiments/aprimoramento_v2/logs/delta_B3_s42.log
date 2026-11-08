@@ -1,0 +1,9 @@
+delta seed=42 epoch=1/15 train=0.719603 stop=0.718768
+delta seed=42 epoch=2/15 train=0.684480 stop=0.707600
+delta seed=42 epoch=3/15 train=0.676386 stop=0.704874
+delta seed=42 epoch=4/15 train=0.673722 stop=0.703939
+delta seed=42 epoch=5/15 train=0.671032 stop=0.704370
+delta seed=42 epoch=6/15 train=0.669562 stop=0.703734
+delta seed=42 epoch=7/15 train=0.667676 stop=0.700786
+delta seed=42 epoch=8/15 train=0.665769 stop=0.703850
+delta seed=42 epoch=9/15 train=0.664445 stop=0.702078
